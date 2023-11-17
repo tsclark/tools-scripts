@@ -10,17 +10,6 @@
 // @grant        none
 // ==/UserScript==
 
-/*$(document).ready(function ()
-{
-    $("head").append("<style>" +
-            "[data-testid=\"issue-view-ecosystem.connect.content-panel.qase.jira.cloud__qase-runs\"] { display: none; }" +
-            "[data-testid*=\"issue-view-ecosystem.connect.content-panel.com.gebsun.plugins.jira.issuechecklist__issue-checklist-content-checklist-\"] { display: none; }" +
-            "[data-testid*=\"issue-view-ecosystem.connect.content-panel.com.lucidchart.jira.plugins.lucid-jira__lucidchart-issue-content-panel-\"] { display: none; }" +
-            "[data-testid*=\"issue-view-ecosystem.connect.content-panel.com.kretar.jira.plugin.user-story-map__planning-poker-view-\"] { display: none; }" +
-            "[data-testid*=\"issue-view-ecosystem.connect.content-panel.com.kretar.jira.plugin.user-story-map__retrospective-issue-view-\"] { display: none; }" +
-        "</style>");
-});*/
-
 (function(){
     addGlobalStyle('[data-testid="issue-view-ecosystem.connect.content-panel.qase.jira.cloud__qase-runs"] { display: none; }');
     addGlobalStyle('[data-testid*="issue-view-ecosystem.connect.content-panel.com.gebsun.plugins.jira.issuechecklist__issue-checklist-content-checklist-"] { display: none; }');
